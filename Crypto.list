@@ -1,0 +1,139 @@
+# NAME: Crypto
+# DESC: Major cryptocurrency exchange routing rules for Quantumult X
+# UPDATED: 2026-08-29
+# POLICY: Crypto
+#
+# Recommended usage:
+# [filter_remote]
+# https://raw.githubusercontent.com/YOUR_USERNAME/QuantumultX-Rules/main/Crypto.list, tag=Crypto, force-policy=Crypto, update-interval=86400, opt-parser=false, enabled=true
+
+# =========================
+# Binance
+# =========================
+host-suffix, binance.com, Crypto
+host-suffix, binance.us, Crypto
+host-suffix, binance.info, Crypto
+host-suffix, binance.me, Crypto
+host-suffix, binance.net, Crypto
+host-suffix, binance.cloud, Crypto
+host-suffix, binance.vision, Crypto
+host-suffix, binanceapi.com, Crypto
+host-suffix, bnbstatic.com, Crypto
+host-suffix, bntrace.com, Crypto
+host-suffix, bnbchain.org, Crypto
+host-suffix, saasexch.com, Crypto
+host-suffix, bsappapi.com, Crypto
+host-suffix, nftstatic.com, Crypto
+
+# =========================
+# OKX / OKCoin / OKLink
+# =========================
+host-suffix, okx.com, Crypto
+host-suffix, okx.org, Crypto
+host-suffix, okx.cab, Crypto
+host-suffix, okcoin.com, Crypto
+host-suffix, okex.com, Crypto
+host-suffix, oklink.com, Crypto
+host-suffix, okxstatic.com, Crypto
+host-suffix, okxcdn.com, Crypto
+host-suffix, okcdn.com, Crypto
+host-suffix, okbtothemoon.com, Crypto
+
+# =========================
+# Bybit
+# =========================
+host-suffix, bybit.com, Crypto
+host-suffix, bybitglobal.com, Crypto
+host-suffix, bybit.biz, Crypto
+host-suffix, bybitapi.com, Crypto
+host-suffix, bybitcdn.com, Crypto
+host-suffix, byapps.net, Crypto
+host-suffix, bycsi.com, Crypto
+host-suffix, bytick.com, Crypto
+host-suffix, byreal.io, Crypto
+host-suffix, bybit-aws.com, Crypto
+
+# =========================
+# Bitget
+# =========================
+host-suffix, bitget.com, Crypto
+host-suffix, bitget.site, Crypto
+host-suffix, bitgetapp.com, Crypto
+host-suffix, bgcdnimg.com, Crypto
+
+# =========================
+# MEXC
+# =========================
+host-suffix, mexc.com, Crypto
+host-suffix, mexc.co, Crypto
+host-suffix, mexc.io, Crypto
+host-suffix, mexcglobal.com, Crypto
+host-suffix, mocortech.com, Crypto
+
+# =========================
+# KuCoin
+# =========================
+host-suffix, kucoin.com, Crypto
+host-suffix, kucoin.io, Crypto
+host-suffix, kucoin.plus, Crypto
+host-suffix, kumex.com, Crypto
+host-suffix, kcs.top, Crypto
+
+# =========================
+# Gate
+# =========================
+host-suffix, gate.com, Crypto
+host-suffix, gate.io, Crypto
+host-suffix, gate.ac, Crypto
+host-suffix, gateio.co, Crypto
+host-suffix, gateio.ws, Crypto
+host-suffix, gateimg.com, Crypto
+host-suffix, gatetool.com, Crypto
+host-suffix, gatedata.org, Crypto
+
+# =========================
+# Coinbase
+# =========================
+host-suffix, coinbase.com, Crypto
+host-suffix, coinbase-statics.com, Crypto
+host-suffix, cdnbase.io, Crypto
+host-suffix, cb-bn.net, Crypto
+host-suffix, coinbase.cloud, Crypto
+host-suffix, coinbase.org, Crypto
+
+# =========================
+# Kraken
+# =========================
+host-suffix, kraken.com, Crypto
+host-suffix, kraken.co, Crypto
+host-suffix, krakenfx.com, Crypto
+host-suffix, krakenstatic.com, Crypto
+host-suffix, payward.com, Crypto
+
+# =========================
+# Crypto.com
+# =========================
+host-suffix, crypto.com, Crypto
+
+# =========================
+# HTX / Huobi
+# =========================
+host-suffix, htx.com, Crypto
+host-suffix, htx.co, Crypto
+host-suffix, huobi.com, Crypto
+host-suffix, huobi.pro, Crypto
+host-suffix, huobigroup.com, Crypto
+host-suffix, hbfile.net, Crypto
+host-suffix, hbg.com, Crypto
+host-suffix, hbdm.com, Crypto
+
+# =========================
+# Other mainstream exchanges
+# =========================
+host-suffix, bingx.com, Crypto
+host-suffix, gemini.com, Crypto
+host-suffix, bitstamp.net, Crypto
+host-suffix, bitfinex.com, Crypto
+host-suffix, poloniex.com, Crypto
+host-suffix, bitmart.com, Crypto
+host-suffix, lbank.info, Crypto
