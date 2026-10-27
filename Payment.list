@@ -1,0 +1,108 @@
+# NAME: Payment
+# DESC: International payment and money transfer routing rules for Quantumult X
+# UPDATED: 2026-10-27
+# POLICY: Payment
+#
+# Recommended usage (create the Payment policy first; see README.md):
+# [filter_remote]
+# https://raw.githubusercontent.com/LogiX-D/QuantumultX-Rules/main/Payment.list, tag=Payment, force-policy=Payment, update-interval=86400, opt-parser=false, enabled=true
+#
+# Service-owned domains only; no shared CDN suffixes or keyword rules.
+# Core website, checkout, API and asset coverage, not an exhaustive dependency list.
+# Domain sources and configuration notes: README.md
+
+# =========================
+# PayPal / PayPal.Me
+# =========================
+host-suffix, paypal.com, Payment
+host-suffix, paypal.me, Payment
+host-suffix, paypalobjects.com, Payment
+
+# =========================
+# Venmo
+# =========================
+host-suffix, venmo.com, Payment
+
+# =========================
+# Braintree / Fastlane
+# =========================
+host-suffix, braintreegateway.com, Payment
+host-suffix, braintree-api.com, Payment
+
+# =========================
+# Stripe
+# =========================
+host-suffix, stripe.com, Payment
+host-suffix, stripecdn.com, Payment
+host, m.stripe.network, Payment
+
+# =========================
+# Link (by Stripe)
+# =========================
+host-suffix, link.com, Payment
+
+# =========================
+# Wise / TransferWise
+# =========================
+host-suffix, wise.com, Payment
+host-suffix, transferwise.com, Payment
+
+# =========================
+# Revolut
+# =========================
+host-suffix, revolut.com, Payment
+
+# =========================
+# Payoneer
+# =========================
+host-suffix, payoneer.com, Payment
+
+# =========================
+# Skrill
+# =========================
+host-suffix, skrill.com, Payment
+
+# =========================
+# Neteller
+# =========================
+host-suffix, neteller.com, Payment
+
+# =========================
+# Airwallex
+# =========================
+host-suffix, airwallex.com, Payment
+
+# =========================
+# Adyen
+# =========================
+host-suffix, adyen.com, Payment
+host-suffix, adyenpayments.com, Payment
+
+# =========================
+# Checkout.com
+# =========================
+host-suffix, checkout.com, Payment
+
+# =========================
+# Klarna
+# =========================
+host-suffix, klarna.com, Payment
+host-suffix, klarnacdn.net, Payment
+host-suffix, klarnaevt.com, Payment
+host-suffix, klarnaservices.com, Payment
+
+# =========================
+# Square
+# =========================
+host-suffix, squareup.com, Payment
+host-suffix, squareup1.com, Payment
+host-suffix, squareup2.com, Payment
+host-suffix, squarecdn.com, Payment
+host-suffix, sqaddons.com, Payment
+host-suffix, square.link, Payment
+
+# =========================
+# Cash App
+# =========================
+host-suffix, cash.app, Payment
+host-suffix, cash.me, Payment
